@@ -25,7 +25,7 @@ services:
     links:
       - postgres
     ports:
-      - '3000:3000'
+      - '3001:3000'
     restart: on-failure
     volumes:
       - ./keys:/root/.ssh
